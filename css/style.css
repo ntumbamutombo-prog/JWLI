@@ -1,0 +1,416 @@
+/*DOCUMENT & BODY*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: rgb(72, 70, 70);
+  line-height: 1.6;
+
+}
+
+h1{
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+.hero-content {
+width: 500px;
+height: auto;
+
+}
+body {
+  width: 100%;
+  height: 100px;
+}
+
+main{
+  background-image:url(logo.png); 
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+   background-position: center;
+  background-repeat: no-repeat; 
+}
+
+/*Nav*/
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.site-nav a {
+  font-size: 14px;
+  color: #555;
+}
+
+.site-nav .apply-btn {
+  background: #2b2b2b;
+  color: #fff;
+  padding: 10px 22px;
+  font-weight: 600;
+}
+
+/*Hero*/
+.hero {
+  background: lightgray;
+  padding: 50px 40px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+
+
+.logo {
+  font-family:
+    Georgia,
+    ‘Times New Roman’,
+    serif;
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.logo-sub {
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: #888;
+  display: block;
+}
+
+.hero h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.hero p.tagline {
+  color: white;
+  margin-bottom: 24px;
+  font-size: 15px;
+}
+
+.hero .email-prompt {
+  font-size: 13px;
+  color: var(–text-light);
+  margin-bottom: 10px;
+}
+
+.signup-form {
+  display: flex;
+  gap: 10px;
+}
+
+.signup-form input {
+  flex: 1;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 14px;
+}
+
+.signup-form button {
+  background: gray;
+  color: #fff;
+  border: none;
+  padding: 0 26px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+  .empowermentMidLeft {
+    float: left;
+    width: 30%;
+    height: 100px;
+    margin-left: 15%;
+    text-align: center;
+    padding-top: 40px;
+    border-top: solid 2px red;
+  }
+
+  .empowermentMidRight {
+    float: left;
+    width: 30%;
+    height: 100px;
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 40px;
+    border-top: solid 2px red;
+  }
+
+   .empowermentBtm {
+    width: 60%;
+    clear: both;
+    color: gray;
+    padding-left: 200px;
+    padding-top: 70px;
+    margin-left: 20%;
+    text-align: center;
+  }
+
+
+/*IMG*/
+
+.pictures{
+  background-color: rgb(241,243,245); 
+  padding: auto;
+  border: 2px solid black;
+ 
+}
+
+.gray {
+  color: darkgrey;
+}
+
+.p1 .p2{
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.image-container img {
+  width: 350px;
+  justify-content: center;
+}
+
+/*Our History*/
+
+.content-section {
+  border: 2px solid black;
+  background-color: grey;
+  width: 100%;
+  height: 532px;
+  float: none;
+}
+
+.OurHistory {
+  color: black;
+  width: 60%;
+  
+  height: 532px;
+  float: left;
+}
+
+.ourhistory {
+  background: rgb(183, 182, 182);
+  padding: 60px 40px;
+}
+
+.history h2 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.history-text p {
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: grey;
+}
+
+.history-photos figure {
+  margin-bottom: 20px;
+}
+
+.history-photos img {
+  width: 100%;
+  border: 1px solid gray;
+}
+
+.history-photos figcaption {
+  text-align: end;
+  font-style: italic;
+  color: #9aa7b0;
+  font-size: 13px;
+
+  margin-top: 8px;
+}
+
+.photo-placeholder {
+  width: 100%;
+  aspect-ratio: 16/10;
+  background: #3a3a3a;
+}
+
+/*Who Are We*/
+.who-we-are {
+  padding: 60px 24px;
+  text-align: center;
+}
+
+.who-we-are h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.founder-card {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px solid #e5e5e5;
+  padding: 30px;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.founder-photo {
+  width: 200px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.founder-card h3 {
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+.founder-card p {
+  font-size: 14px;
+  color: var(–text-light);
+}
+
+/*newspaper*/
+/* ===== NEWSLETTER STRIP ===== */
+.newsletter {
+  background: rgb(186,197,207);
+  color: #fff;
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.newsletter h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter-form input {
+  padding: 12px 14px;
+  border: none;
+  min-width: 220px;
+}
+
+.newsletter-form button {
+  background: rgb(85, 97, 103);
+  color: #fff;
+  border: none;
+  padding: 0 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/*Footer*/
+.site-footer {
+  background: rgb(145,156,162);
+  color: white;
+  padding: 40px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 30px;
+  font-size: 13px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-top .social a {
+  margin-left: 16px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.footer-links h4 {
+  font-size: 13px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  font-size: 13px;
+  margin-bottom: 8px;
+  opacity: 0.9;
+}
+/*---------------------- media queries ------------- web ---------------- resposiveness --------*/
+/*---------------------- media queries ------------- web ---------------- resposiveness --------*/
+/*---------------------- media queries ------------- web ---------------- resposiveness --------*/
+
+/* LAPTOP */
+@media (max-width: 1200px) {
+  .site-nav { gap: 40px; padding: 20px; }
+  .footer-links { grid-template-columns: repeat(3, 1fr); }
+  main { min-height: 300px; }
+}
+
+/* TABLET */
+@media (max-width: 900px) {
+  .hero-content { width: 100%; padding: 0 24px; }
+  .founder-card { flex-direction: column; align-items: center; text-align: center; }
+  .founder-photo { width: 150px; }
+  .empowermentMidLeft,
+  .empowermentMidRight {
+    float: none;
+    width: 80%;
+    margin: 0 auto 20px;
+  }
+  .empowermentBtm { width: 80%; margin: 0 auto; padding-left: 0; }
+  .content-section,
+  .OurHistory { float: none; width: 100%; height: auto; min-height: 400px; }
+  .footer-links { grid-template-columns: repeat(2, 1fr); }
+  main { min-height: 240px; }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .site-nav { flex-direction: column; gap: 15px; padding: 15px; }
+  .hero-content { width: 100%; padding: 0 16px; }
+  .signup-form,
+  .newsletter-form { flex-direction: column; }
+  .newsletter { flex-direction: column; text-align: center; }
+  .footer-top { flex-direction: column; text-align: center; }
+  .footer-links { grid-template-columns: 1fr; text-align: center; }
+  .founder-card { padding: 16px; }
+  .image-container img { width: 100%; }
+  main { min-height: 180px; }
+}
